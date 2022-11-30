@@ -6,16 +6,21 @@
 }
 .header{
     display:flex;
+    padding-left:15%;
+    padding-right:15%;
     justify-content:space-between;
     align-items: center;
     padding-top:10px;
-    padding-bottom: 60px;
+    height:max-content;
     position: sticky;
+    background-color: #1F2937;
     top:0;
+    padding-bottom: 20px;
 }
 .header-logo{
     font-size: 24px;
     font-weight: bolder;
+    color: #F9FAF8;
 }
 body{
     margin:0px;
@@ -121,4 +126,44 @@ ul{
 .credit{
     align-self: flex-end;
     width:max-content;
+}
+.section-4{
+    padding:50px 15% 50px 15%;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-container{
+    display:flex;
+    background-color: aqua;
+    flex-grow:0;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px;
+    padding:40px 10% 40px 10%;
+}
+.info-container .title{
+    font-size:20px;
+}
+.info-container button{
+    width:100px;
+    background-color: #1F2937;
+    border-radius: 20px;
+    color:white;
+    padding:10px;
+}
+.info-container .info{
+    font-size:15px;
+}
+.footer{
+    background-color: #1F2937;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+.footer-text{
+    font-size: 15px;
 }
