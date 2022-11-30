@@ -10,7 +10,8 @@
     align-items: center;
     padding-top:10px;
     padding-bottom: 60px;
-    position:sticky;
+    position: sticky;
+    top:0;
 }
 .header-logo{
     font-size: 24px;
@@ -34,11 +35,15 @@ ul{
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
+    flex:0 0 auto;
     font-size: 18px;
     padding-bottom: 80px;
 }
 .text{
     width:400px;
+    display:flex;
+    flex-flow:column nowrap;
+    flex-shrink: 0;
 }
 .title{
     font-size:48px;
@@ -55,4 +60,65 @@ ul{
     background-color: aqua;
     border-radius: 20px;
     padding:10px;
+    width:100px;
+}
+.image-gallery .image{
+    width:150px;
+    height:150px;
+    border:aqua solid 5px;
+    border-radius: 10px;
+}
+.image-gallery{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.item .desc{
+    width:150px;
+}
+.section-2 .title{
+    font-size: 36px;
+    color:#1F2937;
+}
+.section-2{
+    padding-left:15%;
+    padding-right:15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom: 40px;
+    gap:30px;
+}
+.section-3{
+    padding-left:15%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right:15%;
+    background-color: rgb(169, 169, 169);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote{
+    width:600px;
+    font-size:30px;
+}
+.quote-container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.credit{
+    align-self: flex-end;
+    width:max-content;
 }
