@@ -1,190 +1,99 @@
-.section-1{
-    padding-left:15%;
-    padding-right:15%;
-    background-image: url("https://media3.giphy.com/headers/jmckeehen/s2wy7iphPP98.gif");
-    background-repeat: no-repeat;
-    background-size:cover;
-    color: #F9FAF8;
-}
-.header{
-    display:flex;
-    padding-left:15%;
-    padding-right:15%;
-    justify-content:space-between;
-    align-items: center;
-    padding-top:10px;
-    height:max-content;
-    position: sticky;
-    background-color: #1F2937;
-    top:0;
-    padding-bottom: 20px;
-}
-.header-logo{
-    font-size: 30px;
-    font-weight: bolder;
-    color: #F9FAF8;
-    font-family: "Nerko One";
-}
-body{
-    margin:0px;
-    padding:0px;
-    font-family: Solway;
-}
-ul{
-    margin:0px;
-    padding:0px;
-    list-style-type: none;
-    color:#E5E7EB;
-    display:flex;
-    gap:20px;
-}
-.title-container{
-    color:#E5E7EB;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    flex:0 0 auto;
-    font-size: 18px;
-    padding-bottom: 80px;
-}
-.text{
-    width:400px;
-    display:flex;
-    flex-flow:column nowrap;
-    flex-shrink: 0;
-    background-color: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
-    padding:20px;
-    
-    border:white 3px solid;
-}
-.title{
-    font-size:40px;
-    color:#F9FAF8;
-    font-weight: bolder;
-}
-.title .highlight{
-    color:crimson;
-    text-shadow: 1px 1px black;
-    font-size:48px;
-}
-.image img{
-    height:350px;
-    width:300px;
-    border-right:white 3px solid;
-    border-top: white 3px solid;
-}
-.title-container button{
-    margin-top:10px;
-    background-color: aqua;
-    border-radius: 20px;
-    padding:10px;
-    width:100px;
-}
-.image-gallery img{
-    border:none;
+html,body{
     height:100%;
-    width:100%;
-}
-.image-gallery .image{
-    width:200px;
-    height:200px;
-    border:black solid 2px;
-}
-.image-gallery{
-    display:flex;
-    justify-content: center;
-    flex: 1 0 auto;
-    align-items: center;
-    width: 100%;
-    gap:10px;
-}
-.item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    gap:10px;
-    text-align: center;
-    height:auto;
-    width: 100%; 
+    min-height:100%; 
+    margin:0px;
+    padding:0px;
 }
 
-.section-2 .title{
-    font-size: 36px;
-    color:#1F2937;
-}
-.section-2{
-    padding-left:15%;
-    padding-right:15%;
-    display: flex;
+.container{
+    background: url("./stars.gif"),url("./repeatingbackground.jpg") center;
+    background-repeat: repeat;
+    height:100%;
+    width:100%;
+    display:flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding-top:20px;
-    padding-bottom: 40px;
-    gap:30px;
-}
-.section-3{
-    padding-left:15%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right:15%;
-    background-color: rgb(169, 169, 169);
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-.quote{
-    width:600px;
-    font-size:30px;
-}
-.quote-container{
-    display:flex;
-    flex-direction:column;
     gap:20px;
+    align-items: center;
 }
-.credit{
-    align-self: flex-end;
-    width:max-content;
+.enter{
+    height:auto;
+    width: 400px;
 }
-.section-4{
-    padding:50px 15% 50px 15%;
-    background-color: white;
+.enter img{
+    height:auto;
+    width: 100%;
+    border:none;
+    margin-top: 20px;
+}
+.enter img:hover{
+    cursor:pointer;
+}
+
+.title-space h1{
+    font-size: 40px;
+    font-family: Bungee;
+    background: -webkit-linear-gradient(90deg, rgba(58,147,180,1) 9%, rgba(167,253,29,1) 45%, rgba(252,69,168,1) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: black 1px;
+
+}
+.yokai-king{
+    font-size:35px;
+    text-align: center;
+    font-family: "VT323",sans-serif;
+}
+.yokai-king a{
+    text-decoration: none;
+    color: red;
+    font-size: 60px;
+}
+.yokai-king a:hover{
+    color:blue;
+    cursor: pointer;
+}
+.reigen-arataka{
     display:flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap:10px;
 }
-.info-container{
-    display:flex;
-    background-color: aqua;
-    flex-grow:0;
-    align-items: center;
-    justify-content: space-between;
-    gap:50px;
-    padding:40px 10% 40px 10%;
-}
-.info-container .title{
-    font-size:20px;
-}
-.info-container button{
-    width:100px;
-    background-color: #1F2937;
-    border-radius: 20px;
-    color:white;
-    padding:10px;
-}
-.info-container .info{
-    font-size:15px;
-}
-.footer{
-    background-color: #1F2937;
-    color:white;
+.name{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:20px;
+    gap:5px;
 }
-.footer-text{
-    font-size: 15px;
+.name div{
+    font-size:70px;
+    padding:10px;
+    font-weight: bold;
+}
+.first-syllable{
+    background-color: aqua;
+    color:rgb(88, 146, 0);
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+.second-syllable{
+    background-color: yellow;
+    color:rgb(10, 79, 206);
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+.third-syllable{
+    background-color: rgb(243, 53, 116);
+    color:purple;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+.fourth-syllable{
+    background-color: rgb(7, 167, 7);
+    color:Red;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+.welcome,.homepage{
+    font-size:30px;
+    font-family: VT323;
 }
