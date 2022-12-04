@@ -1,0 +1,33 @@
+body,html{
+    padding:0px;
+    margin:0px;
+    min-height:100%;
+    height:100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background: url("../../resources/stars.gif"),url("../../resources/repeatingbackground.jpg") center;
+    background-repeat: repeat;
+    align-items: center;
+    height:100%;
+    gap:30px;
+    justify-content: center;
+}
+.container img{
+    height:400px;
+    width: auto;
+}
+.container h1{
+    font-size: 50px;
+    font-family: "Nerko One";
+    color:red;
+    -webkit-text-stroke: blue 2px;
+
+}
+.container .desc{
+    text-align: center;
+    width:600px;
+    font-family: VT323;
+    font-size: 40px;
+}

@@ -13,7 +13,7 @@ html,body{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    gap:20px;
+    gap:50px;
     align-items: center;
 }
 .enter{
@@ -31,8 +31,8 @@ html,body{
 }
 
 .title-space h1{
-    font-size: 40px;
-    font-family: Bungee;
+    font-size: 60px;
+    font-family: "Nerko One";
     background: -webkit-linear-gradient(90deg, rgba(58,147,180,1) 9%, rgba(167,253,29,1) 45%, rgba(252,69,168,1) 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

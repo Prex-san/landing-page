@@ -1,0 +1,115 @@
+.header{
+    display:flex;
+    padding-left:15%;
+    padding-right:15%;
+    justify-content:space-between;
+    align-items: center;
+    padding-top:10px;
+    height:max-content;
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.9);
+    top:0;
+    padding-bottom: 10px;
+}
+.header-logo{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #ff0558;
+    font-family: "Nerko One";
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: Solway;
+}
+ul{
+    margin:0px;
+    padding:0px;
+    list-style-type: none;
+    color:#ff0558;
+    font-size: 16px;
+    display:flex;
+    gap:20px;
+}
+ul:hover{
+    cursor:pointer;
+}
+li:hover{
+    color:aqua;
+    text-decoration: underline aqua 2px;
+}
+.current-page{
+    color:aqua;
+    text-decoration: underline aqua 2px;
+}
+li a{
+    text-decoration: none;
+    color:inherit;
+}
+body{
+    padding:0px;
+    margin:0px;
+    height:100%;
+    background: url("../../../resources/stars.gif"),url("../../../resources/repeatingbackground.jpg") center;
+    background-repeat: repeat;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:50px;
+}
+.service .image{
+    width:auto;
+    height:200px;
+    border:white 2px solid;
+}
+.service .image:hover{
+    height:250px;
+    transition: 500ms 500ms;
+}
+.image img{
+    height:100%;
+    width: auto;
+}
+.service{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding:60px;
+    margin:20px;
+    border-radius: 20px;
+    gap:20px;
+}
+.service .text{
+    width:600px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-size: 18px;
+    gap:10px;
+}
+.text .title{
+    color:#ff0558;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: black 2px 2px;
+}
+.text .appointments-remaining{
+    color:greenyellow;
+    font-size:22px;
+}
+.text .price{
+    border: red 2px dashed;
+    padding:5px;
+    width:fit-content;
+}
+.text .price span{
+    font-size: 20px;
+}
+.header a{
+    text-decoration: none;
+    color:inherit;
+}

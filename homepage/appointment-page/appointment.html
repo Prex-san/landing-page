@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get an appointment</title>
+    <script defer src="./resources/index.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nerko+One|Solway">
+    <link rel="stylesheet" href="./resources/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo"><a href="../index.html">
+            Spirits and such consulting
+        </a>
+        </div>
+
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../services-page/services.html">Services</a></li>
+            <li class="current-page">Contact</li>
+        </ul>
+
+    </div>
+    <div class="main-page">
+        <h1 class="title">Get an appointment</h1>
+        <form class="appointment-form">
+            <div class="name">
+            <label for="name">Name: </label>
+            <input type="text">
+            </div>
+            <div class="contact">
+            <label for="contact">Contact: </label>
+            <input type="tel" class="contact">
+            </div>
+            <div class="service">
+            <label for="type-of-service">Service: </label>
+            <select id="service">
+                <option value="ordinary-exorcism">Ordinary Exorcism</option>
+                <option value="special-exorcism">Special Exorcism</option>
+                <option value="super-deluxe-exorcism">Super Deluxe Exorcism</option>
+                <option value="experience-paradise">Experience Paradise</option>
+                <option value="fight-other-espers">Fight other Espers</option>
+            </select>
+            </div>
+        </form>
+        <button onclick="onSubmit()">Submit!</button>
+    </div>
+
+    <div class="after-submission">
+        <div id="message"></div>
+    </div>
+
+</body>
+</html>
