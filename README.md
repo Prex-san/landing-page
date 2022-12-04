@@ -16,7 +16,7 @@ Without a doubt, this is my best project to date. Making this was a lot of fun, 
 
 * CSS Backgrounds with new properties - background-attachment, background-repeat.
 * Usage of Local storage using JavaScript.
-* Hover effects
+* Hover effects - Includes image animation on hover.
 
 ## What have I learnt:
 
@@ -24,6 +24,7 @@ Without a doubt, this is my best project to date. Making this was a lot of fun, 
 * Usage of images in webpages as background and attachments.
 * JS local storage.
 * Website layouts and animations.
+* Use JavaScript onmouseover and onmouseleave events to call hover functions that change the image onhover.
 * Hover effects.
 * Dev Tools.
  
