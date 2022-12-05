@@ -3,11 +3,11 @@ html,body{
     min-height:100%; 
     margin:0px;
     padding:0px;
+    background: url("./stars.gif"),url("./repeatingbackground.jpg") center;
+    background-repeat: repeat;
 }
 
 .container{
-    background: url("./stars.gif"),url("./repeatingbackground.jpg") center;
-    background-repeat: repeat;
     height:100%;
     width:100%;
     display:flex;
